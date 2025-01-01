@@ -174,7 +174,7 @@ async def broadcast(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # Main function to initialize the bot
 def main():
-    app = Application.builder().token("7012069955:AAEhPYDdCLZxsw7IKfvRUxjCvXye1kZkSiE").build()  # Replace with your actual bot token
+    app = Application.builder().token("7012069955:AAE7vngaEYmjXMnqAmuRlvdHSzT6djF51WA").build()  # Replace with your actual bot token
     
     # Add command handlers
     app.add_handler(CommandHandler("start", start))
